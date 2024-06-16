@@ -18,3 +18,11 @@ This model in it's current state does not succeed with that. It needs further tr
 3. Add images that you want to caption to the /input/ folder
 4. Choose the level of quantization you want in the `inference.py` script. 4, 8 or None. 4 is very fast but worse quality. None is slow but higher quality.
 5. Run `py inference.py`
+
+It should download the required models to a /models/ directory. It should be around 11gb in total.
+
+You can also use this script with other Paligemma models.
+
+I recommend: [https://huggingface.co/gokaygokay/paligemma-rich-captions](https://huggingface.co/gokaygokay/paligemma-rich-captions)
+
+Huge thanks to [Gökay Aydoğan](https://github.com/gokayfem) for helping me finetune and convert the model!
