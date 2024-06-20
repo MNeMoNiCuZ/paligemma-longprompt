@@ -12,6 +12,9 @@ It's an experiment in longer and more complex descriptions. My goal is to create
 
 This model in it's current state does not succeed with that. It needs further training and refinement.
 
+# HuggingFace model
+[https://huggingface.co/mnemic/paligemma-longprompt-v1-safetensors](https://huggingface.co/mnemic/paligemma-longprompt-v1-safetensors)
+
 # How to use
 1. Create a virtual environment
 2. Install the requirements
